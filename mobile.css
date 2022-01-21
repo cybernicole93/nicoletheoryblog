@@ -1,0 +1,64 @@
+.sidebar,
+#leftsidebar,
+#rightsidebar,
+#name,
+p {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+p,
+name {
+  width: 100%;
+}
+
+#topbar {
+  position: relative;
+}
+
+.topbar {
+  text-align: center;
+  height: 45px;
+  border: thin solid #007e7e;
+  position: relative;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  background-image: null;
+  overflow: hidden;
+  font-size: 17px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.topbar a {
+  height: 20px;
+  padding: 0px;
+  background-image: null;
+  overflow: hidden;
+  font-size: 17px;
+  border: 4px;
+  border-color: #007e7e;
+}
+.sidebar,
+#rightsidebar,
+#leftsidebar {
+  height: auto;
+  width: 20%;
+}
+p {
+  clear: both;
+}
+
+#name {
+  margin-right: 5%;
+  margin-top: 40px;
+}
+
+#thesubtitle {
+  display: none;
+}
