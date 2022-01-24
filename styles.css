@@ -101,6 +101,7 @@ a {
   text-align: center;
   line-height: normal;
   color: white;
+  clear: both;
 }
 
 #top {
