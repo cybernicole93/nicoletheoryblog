@@ -18,7 +18,7 @@ name {
 
 .topbar {
   text-align: center;
-  height: 45px;
+  height: 95px;
   border: thin solid #007e7e;
   position: relative;
   padding-top: 1px;
@@ -29,6 +29,8 @@ name {
   background-image: null;
   overflow: hidden;
   font-size: 17px;
+  z-index: 1;
+  box-shadow: #ffffff;
 }
 
 p {
@@ -36,19 +38,23 @@ p {
 }
 
 .topbar a {
-  height: 20px;
-  padding: 0px;
+  height: 90px;
+  padding: 4%;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background-image: null;
   overflow: hidden;
   font-size: 17px;
   border: 4px;
   border-color: #007e7e;
+  z-index: 2;
 }
 .sidebar,
 #rightsidebar,
 #leftsidebar {
   height: auto;
   width: 20%;
+  display: none;
 }
 p {
   clear: both;
